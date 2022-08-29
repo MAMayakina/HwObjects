@@ -7,8 +7,16 @@ public class Author {
         this.lastName = lastName;
     }
 
-    public String getName() {
-        String Name;
-        return Name = this.firstName + " " + this.lastName;
+    public String getFirstName() {
+        return firstName;
     }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String toString() {
+        return firstName + " " + lastName;
+    }
+
 }
